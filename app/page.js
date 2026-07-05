@@ -123,6 +123,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Data Transparency Section */}
+      <section className="section" style={{ padding: '4rem 0 8rem 0', position: 'relative' }}>
+        <div className="container">
+          <div className="glass-panel" style={{ padding: '3rem', maxWidth: '900px', margin: '0 auto', background: 'rgba(15, 23, 42, 0.4)' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '1.5rem' }}>
+              <div style={{ width: '40px', height: '40px', borderRadius: '10px', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <h3 style={{ margin: 0, fontSize: '1.5rem', color: '#fff' }}>Data Transparency & Privacy</h3>
+            </div>
+            <p style={{ marginBottom: '1.5rem', color: 'var(--text-muted)', lineHeight: '1.8' }}>
+              <strong>Quick Analytics</strong> requests read-only access to your Google Analytics data strictly to display metrics for the web page you are currently viewing. This data is used solely to provide the core functionality of the extension.
+            </p>
+            <p style={{ color: 'var(--text-muted)', lineHeight: '1.8' }}>
+              <strong>Your data never leaves your device.</strong> All Google Analytics API credentials and fetched metrics are processed and stored locally within your browser's secure extension storage. We do not operate any backend servers to harvest your data, and your information is never shared, sold, or transmitted to any third parties.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer style={{ padding: '5rem 0 2rem 0', borderTop: '1px solid rgba(255,255,255,0.05)', position: 'relative', zIndex: 10 }}>
         <div className="container">
