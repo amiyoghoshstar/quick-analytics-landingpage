@@ -16,7 +16,12 @@ export default function Home() {
               Now available on Chrome Web Store
             </div>
             
-            <h1 className="text-gradient">Google Analytics, <br/><span className="text-gradient-primary">instantly.</span></h1>
+            <h1 className="animate-text-shimmer" style={{ fontSize: 'clamp(3rem, 8vw, 5.5rem)', fontWeight: '800', lineHeight: '1.1', marginBottom: '1rem', letterSpacing: '-0.03em' }}>
+              Quick Analytics
+            </h1>
+            <h2 style={{ fontSize: 'clamp(1.5rem, 4vw, 2.5rem)', fontWeight: '600', marginBottom: '1.5rem', color: '#fff', letterSpacing: '-0.02em' }}>
+              Google Analytics, <span className="text-gradient-primary">instantly.</span>
+            </h2>
             <p style={{ maxWidth: '650px', margin: '0 auto 3.5rem auto' }}>
               Connect your Google Analytics and view the current page's data with a single click. Everything stays completely private with credentials saved securely in your local storage.
             </p>

@@ -292,3 +292,17 @@ p {
 .hover-text-light:hover {
   color: #fff;
 }
+
+@keyframes textShimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-text-shimmer {
+  background: linear-gradient(270deg, var(--secondary), var(--primary), #a855f7, var(--secondary));
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textShimmer 4s ease infinite;
+}
